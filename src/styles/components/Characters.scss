@@ -1,0 +1,74 @@
+.Character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Character__card {
+  display: flex;
+  width: 500px;
+  border: 1px solid #404e5c;
+  margin: 10px;
+  transition: all 500ms;
+}
+
+.darkModeCharacters {
+  color: white;
+}
+
+.Character__card__favorite {
+  display: flex;
+  flex-direction: column;
+}
+
+.Character__card__favorite--button {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px #242424;
+  padding: 5px;
+  border: 1px solid #404e5c;
+  font-weight: bold;
+  margin-right: 60px;
+  transition: transform 200ms;
+}
+
+.Character__card__favorite--button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.Character__card__img {
+  margin-left: -74px;
+  margin-bottom: -3px;
+}
+
+.Character__card__img img {
+  width: 50%;
+}
+
+.Character__card__info {
+  display: flex;
+}
+
+.Character__card__info h2 {
+  text-align: center;
+  align-self: center;
+  margin-right: 40px;
+  margin-left: -25px;
+}
+
+.Character__card__info h2 {
+  text-align: center;
+  align-self: center;
+  margin-right: 40px;
+  margin-left: -25px;
+}
+
+.Character__card__info--extra {
+  display: flex;
+  flex-direction: column;
+}
+
+.Character__card__info--extra h5 {
+  margin: 15px 0px 10px 0px;
+}

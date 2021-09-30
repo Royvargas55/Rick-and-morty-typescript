@@ -1,0 +1,22 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  margin-top: 1em;
+  background-color: #142534;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #08090d;
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 500ms;
+}
+
+.darkModeButton {
+  color: #142534;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
